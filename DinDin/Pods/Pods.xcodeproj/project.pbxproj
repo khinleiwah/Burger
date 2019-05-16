@@ -1,0 +1,1366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028D9EA50E403646F5480340C31A3427 /* PresentAppStoreTransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B9C993AD2F1C2DBADC8BCD74CC383 /* PresentAppStoreTransitionDriver.swift */; };
+		04212E32BA217BD67456F96B060B5117 /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E56346AE9E403A46438E499B577CB54 /* Presentr.swift */; };
+		0774909AF5E3A2C81460D59F0F8B4889 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D519F02AC6B2B76AD7B11DC0ADF0BD3 /* Animator.swift */; };
+		0BF9B0E466ABEDB20594549875AF2B5C /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB84DB83643C02DEC174F10B2822DB4 /* FSPageViewTransformer.swift */; };
+		0CFF50248C2FB3F97326632A5C6E3B44 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9BEFC31562656BAB514B4FBE14314 /* BackgroundView.swift */; };
+		0DF2767B57F12669D1B5010D441984F7 /* ValueStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B723D9623311BC636F8B7654F4EC24 /* ValueStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1420EC4D834D5E36056657D97D840408 /* BasicScaleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845580D0A5FFC120D4968D5AFF196A31 /* BasicScaleAnimator.swift */; };
+		14C8D97192E00F12E1316016F7FE5E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		19147B918470365D35611537E8594484 /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB13BBDF985A2032CCE6B7858BD689 /* KeyboardTranslation.swift */; };
+		19A412CEED0D25A0B49CF59BBE019D48 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02FD0BD3F5EA623AAF6377F09101027A /* SourceSansPro-Regular.ttf */; };
+		1A3F39B0E15E8F4F2957127051F55070 /* CiaoCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8121D5A2BFA586C87BBFA2A36AFC3D /* CiaoCardCollectionViewCell.swift */; };
+		1ABF44F2C302329D3751AFC0B5A86669 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CC911D46AB40A8E1CDEFFD0D5A7CE /* AlertViewController.swift */; };
+		1F258C6F09ED2E22140F67B6BE927F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		2244AA503827CE409707C10F8864A638 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302DF424B9F2C7317199245CD8A0EC7 /* FSPagerView.swift */; };
+		238377FF2F748878FBFD62C9FD0BC2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		254C2E79ED77D91ED93E4EAB0FA02932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		28E811A6772DBECC6F22B65FFFD3303F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2D15CCAD4B3A5EED35CA7725263419E /* Montserrat-Regular.ttf */; };
+		297C498DEAB077F6062A61CD8D0376F1 /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA73C43B54CBAD7F4955C814DB6A6 /* FSPagerView-dummy.m */; };
+		2AD145F58B5A0E7A5F0ABC390C0EAF3D /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15BA1625FBA6D338E7D55281C86A8BE /* PresentrShadow.swift */; };
+		39F56BA2B5ACFE41C28AC3B0950A5E52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		45BA06109C96FD6816A29982057F9236 /* Pods-DinDin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F6B2D4FCD84B03D003AF7D00172C34 /* Pods-DinDin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D1D099CD52D4F6987594FF31319C66 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 53983B705D69F9F3B1706C079F462DED /* FSPagerViewObjcCompat.m */; };
+		4D870AEA231CAA542A4F2E40C109AA79 /* CiaoTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE973E18793484E34E7F73FD7831DD96 /* CiaoTransitions-dummy.m */; };
+		4DDF518335ADEEEEFFEF498A4DC70AD5 /* CiaoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66141A849860B7D7A200F47D2FEFD281 /* CiaoTransition.swift */; };
+		50E025F3B875B176606EF76325FAF147 /* SpecialInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A749025E648F199FDCD477DAC13044 /* SpecialInteractor.swift */; };
+		51D22CD5E4546EEC6612C36C85355B01 /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FEA6C3B9EFA59CAAA0F528D55EC042 /* CoverVerticalAnimation.swift */; };
+		541967BDBC0871A932827A647970F8E9 /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FA4E37D7DCCAB8AD2AC4A954E3316 /* CoverVerticalFromTopAnimation.swift */; };
+		58F1D378DD5351A27536CA8AE0E9ED06 /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CBDCC7A94F7558C99988A55814BE74 /* CrossDissolveAnimation.swift */; };
+		6141812110B6CB692FF4A527AD81BFFA /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358209AF53CDFAE281297138B40B567A /* PresentrController.swift */; };
+		69230C9C065D4902212444F122CAA60A /* BasicAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262DE03252DFE2B912CDCFD4C1A47587 /* BasicAnimator.swift */; };
+		6AAD15414470C7F94F3F527FFF15C8B7 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9DF39CA560627564870A28E267AD6 /* FSPagerViewLayoutAttributes.swift */; };
+		6EEFD282B439C6F05B6CB7CABAA36712 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52D8842277F3546E3F46364E6481A3 /* TransitionType.swift */; };
+		7063015D37547F9DC9E254AFFE944CE7 /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45A46FF30C7F17C69C8565C86BCB90 /* PresentrAnimation.swift */; };
+		7A4BEBC355A17EC439BDDAF928758AD5 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846B46D3D2B7CF241E1845CE16F8A88 /* FSPagerViewCell.swift */; };
+		7A9473445EB343C3B3615B561FA6A00F /* BasicInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2665BC59C44C2F0CE6231DF69A88E6 /* BasicInteractor.swift */; };
+		846064788FC91453B11E4614C6444FD9 /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7476E3D5DEF9B11BE0D3E0748B1C48 /* FlipHorizontalAnimation.swift */; };
+		8727216821139F789C6FA84B2F940318 /* CiaoScaleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E62EE35A2FF7DAF9E0A6672F116BFE /* CiaoScaleConfigurator.swift */; };
+		9A56192DD94939ABD126ED4264E45783 /* BasicVerticalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6777B28C2C57AE69D85AD9547D80C3 /* BasicVerticalAnimator.swift */; };
+		9B298D8718511800FDD9F29BEE2E023D /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4289BF1747F14180E624BA03D2D4F3 /* Interactor.swift */; };
+		9C3738C7F369144CE0B6FAB3AF0D71A6 /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E725035A7D23DECEA1C6B94C137EB7F0 /* CoverHorizontalAnimation.swift */; };
+		A00D8CAB56A72ABCC50C01512918C2FB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98BFEF61B12D855031A4AE64A1BD8C5 /* Globals.swift */; };
+		A1BD8A31C09895DCBB5576E5BC516C3A /* Presentr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12AFDAB232618CD75AEE2C29CF48810 /* Presentr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2B4E6B998289CA177BF63E2100DD4A8 /* DismissAppStoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410AF3647051E1F03A7CE602772DA53 /* DismissAppStoreAnimator.swift */; };
+		A6A032427391449B4DCA81F99A660542 /* UIView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3150BFDB2D34FB378DEBB24A46C39 /* UIView+Tools.swift */; };
+		AD251455DD9E00932139F7D10E2EA0CB /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C8344B38117B571A8E2FA8D1FB86D /* CoverFromCornerAnimation.swift */; };
+		AFFA5C989B359FC002096F82029A6E6F /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB4A6BE329430D7CEB02F7606DB739C /* FSPagerCollectionView.swift */; };
+		B479F9E916B5C1ACDFC92A2DCAF46681 /* Pods-DinDin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A83021CDA68319231549C9AAF2E65A19 /* Pods-DinDin-dummy.m */; };
+		B4C92C0496A396AAB3DC2F09184AEFA7 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26F9BD1BAEE121FAB36F1A307553B5 /* PresentationType.swift */; };
+		B4CFECA515F950852E27ED44FFB339B0 /* ValueStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91337A2B102097259D5D5E972743A897 /* ValueStepper-dummy.m */; };
+		B6033C985DE588586FFE7118DDC25804 /* CiaoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4861502204E1CE4CB1F09976A1DB77 /* CiaoConfigurator.swift */; };
+		BD0D2709EA8E1D066BF8A0587608BBFF /* CiaoAppStoreConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613BB9C91685133157CEF48E5F45352 /* CiaoAppStoreConfigurator.swift */; };
+		C69E45E7A6A8B6A91F5F9E1706D92852 /* Presentr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A70EC54095FE1641221B705C2E83746 /* Presentr-dummy.m */; };
+		C877C19AA23E36E8B2FA52FF044496AE /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45595078C6DF4D2058E506CF33EDE039 /* Presentr+Equatable.swift */; };
+		CB13EFF9285E524723BDD60E68EF2EB0 /* BasicLateralAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858BB3CA5BD61D64CFA3F07EFB7DDA6 /* BasicLateralAnimator.swift */; };
+		D18BCE5DFDE3F186F28AC3F1564BA49A /* ValueStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F97E0688593A931E16BAD94DA7C55 /* ValueStepper.swift */; };
+		D6D693F1B8E81B6997A68E123FB95ADA /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E815C4C812AC532E7038B7C9644F574 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8449B4846E9603C1DA3B4C3B85684E6 /* UIImageView+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9655C9422CBC8376092F5387F73F05D /* UIImageView+Copy.swift */; };
+		D8F4F1931559AEAE1864FF63B438899A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		DCFD10069D77CE7D6B4A23779CD35274 /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C42703F0F9107538748330DE248337 /* ModalSize.swift */; };
+		DD90D6F6A36B9C3C7631E3F06DEB0126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		DF83D8DF91CD8CB95B57AB8398756754 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CA358A713B820B20276D78953DB01 /* FSPageControl.swift */; };
+		E5F9FE1EF82D7008BA1442DC1EBF76EC /* CiaoTransitions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CB4B0D60D1C0A432A7F7E0C1D44D39 /* CiaoTransitions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62C0CC03A89C1AD8849581C8AB383E3 /* PresentAppStoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CD1FECFF3EDF7AF7BF97167B192C7 /* PresentAppStoreAnimator.swift */; };
+		E6DAB6123768270DD250C88CCEAE2859 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E739F9E850880F678229583B1F7372 /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E706A02767934D3E6B021FC31A3E905D /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C880958847CA1FBEDF3D109F8F85971 /* ModalCenterPosition.swift */; };
+		EB473DB04413BFD079DD53A24A1D17EB /* CiaoTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC926033F4BDF6AA515D039D174D69ED /* CiaoTransitionStyle.swift */; };
+		F589AC4744F18518854B674E1AFFA09E /* CiaoModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366E64975D9C9F853D83D7320D83D65 /* CiaoModalPresentationController.swift */; };
+		FA1C9FA0F94A81A71EEC5DF946CD0921 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038422307A9B877F2556311D5905924B /* FSPageViewLayout.swift */; };
+		FDC4F068462E8024BA995F1B0438B9DE /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF378D89414381F1EFB75E478E2496F4 /* AlertViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E3EC3CF3CFE99FF7A8A84195AA04A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0C74E4A9521420C609B3853291D065;
+			remoteInfo = FSPagerView;
+		};
+		313051839A9F0F71D39D839BB248AFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB8D894D84D67CF1F772092067BDC24;
+			remoteInfo = ValueStepper;
+		};
+		9134AD0B9D8194ECE6C2989CCB52FC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E5D4E358FBB746335FAFE131FA397F;
+			remoteInfo = Presentr;
+		};
+		960A13F04B865D2CD9B340EA06F909DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C207C16F7701A99D43D7C5D30888D3;
+			remoteInfo = CiaoTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FD0BD3F5EA623AAF6377F09101027A /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "SourceSansPro-Regular.ttf"; path = "Presentr/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		038422307A9B877F2556311D5905924B /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		06FEA6C3B9EFA59CAAA0F528D55EC042 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalAnimation.swift; path = Presentr/CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+		07E62EE35A2FF7DAF9E0A6672F116BFE /* CiaoScaleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoScaleConfigurator.swift; path = CiaoTransitions/Configurator/CiaoScaleConfigurator.swift; sourceTree = "<group>"; };
+		0A70EC54095FE1641221B705C2E83746 /* Presentr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentr-dummy.m"; sourceTree = "<group>"; };
+		0C0CD498401AAAD959D73F3D8A5A97AD /* Pods-DinDin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinDin.debug.xcconfig"; sourceTree = "<group>"; };
+		1D519F02AC6B2B76AD7B11DC0ADF0BD3 /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = CiaoTransitions/Animator/Animator.swift; sourceTree = "<group>"; };
+		2302DF424B9F2C7317199245CD8A0EC7 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		2613BB9C91685133157CEF48E5F45352 /* CiaoAppStoreConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoAppStoreConfigurator.swift; path = CiaoTransitions/Configurator/CiaoAppStoreConfigurator.swift; sourceTree = "<group>"; };
+		262DE03252DFE2B912CDCFD4C1A47587 /* BasicAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicAnimator.swift; path = CiaoTransitions/Animator/BasicAnimator.swift; sourceTree = "<group>"; };
+		2897E1253DC21B1837FCE77876BA8D2A /* ValueStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValueStepper.modulemap; sourceTree = "<group>"; };
+		2A6C8344B38117B571A8E2FA8D1FB86D /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverFromCornerAnimation.swift; path = Presentr/CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		2C26F9BD1BAEE121FAB36F1A307553B5 /* PresentationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationType.swift; path = Presentr/PresentationType.swift; sourceTree = "<group>"; };
+		2D9CC911D46AB40A8E1CDEFFD0D5A7CE /* AlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = Presentr/AlertViewController.swift; sourceTree = "<group>"; };
+		2DE9DF39CA560627564870A28E267AD6 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		2DF666061592DF75378046F466960C4D /* ValueStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValueStepper.framework; path = ValueStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7168933113A8B0D24F27B45A43B195 /* CiaoTransitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CiaoTransitions.framework; path = CiaoTransitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31CBDCC7A94F7558C99988A55814BE74 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossDissolveAnimation.swift; path = Presentr/CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		358209AF53CDFAE281297138B40B567A /* PresentrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrController.swift; path = Presentr/PresentrController.swift; sourceTree = "<group>"; };
+		358FA4E37D7DCCAB8AD2AC4A954E3316 /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalFromTopAnimation.swift; path = Presentr/CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		3A4289BF1747F14180E624BA03D2D4F3 /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = CiaoTransitions/Interactor/Interactor.swift; sourceTree = "<group>"; };
+		3B388E434403BBED25366D720520FCBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB4A6BE329430D7CEB02F7606DB739C /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		4410AF3647051E1F03A7CE602772DA53 /* DismissAppStoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissAppStoreAnimator.swift; path = CiaoTransitions/ModalAppStoreTransition/DismissAppStoreAnimator.swift; sourceTree = "<group>"; };
+		44DBA73C43B54CBAD7F4955C814DB6A6 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		45595078C6DF4D2058E506CF33EDE039 /* Presentr+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Presentr+Equatable.swift"; path = "Presentr/Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		45EC502F37B2F20A6475A4C5C104743D /* ValueStepper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValueStepper.xcconfig; sourceTree = "<group>"; };
+		4846B46D3D2B7CF241E1845CE16F8A88 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		49276A2759B4616800F0B71854F80878 /* Pods-DinDin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DinDin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A2BB1993BDE59B5D62825A3B71C701D /* Presentr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Presentr.framework; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CADC5A747858508F94F84E5A64AF2FD /* Presentr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentr.xcconfig; sourceTree = "<group>"; };
+		4CF18144530003558F59FE8162868EE7 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
+		4E9F5BBF378C93F1448794014EE2BA97 /* ValueStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValueStepper-prefix.pch"; sourceTree = "<group>"; };
+		4EBCF7B210A120EC1CBF06807234D404 /* CiaoTransitions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CiaoTransitions.modulemap; sourceTree = "<group>"; };
+		53983B705D69F9F3B1706C079F462DED /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		53A749025E648F199FDCD477DAC13044 /* SpecialInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpecialInteractor.swift; path = CiaoTransitions/Interactor/SpecialInteractor.swift; sourceTree = "<group>"; };
+		55B7A812E03E62EB63BCCB68FDE4CAF0 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		5A4861502204E1CE4CB1F09976A1DB77 /* CiaoConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoConfigurator.swift; path = CiaoTransitions/Configurator/CiaoConfigurator.swift; sourceTree = "<group>"; };
+		5C880958847CA1FBEDF3D109F8F85971 /* ModalCenterPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalCenterPosition.swift; path = Presentr/ModalCenterPosition.swift; sourceTree = "<group>"; };
+		5E8121D5A2BFA586C87BBFA2A36AFC3D /* CiaoCardCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoCardCollectionViewCell.swift; path = CiaoTransitions/Views/CiaoCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		66141A849860B7D7A200F47D2FEFD281 /* CiaoTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoTransition.swift; path = CiaoTransitions/CiaoTransition.swift; sourceTree = "<group>"; };
+		6E56346AE9E403A46438E499B577CB54 /* Presentr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentr.swift; path = Presentr/Presentr.swift; sourceTree = "<group>"; };
+		6E7B1640A53C1E6BA381F7AD6EBF9732 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7136DA05AB94FB1D9C3AA139051D43AA /* CiaoTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CiaoTransitions.xcconfig; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		74F6B2D4FCD84B03D003AF7D00172C34 /* Pods-DinDin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DinDin-umbrella.h"; sourceTree = "<group>"; };
+		79C1C544ABD320DA27D8281C14E6311B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2665BC59C44C2F0CE6231DF69A88E6 /* BasicInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicInteractor.swift; path = CiaoTransitions/Interactor/BasicInteractor.swift; sourceTree = "<group>"; };
+		7E815C4C812AC532E7038B7C9644F574 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		845580D0A5FFC120D4968D5AFF196A31 /* BasicScaleAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicScaleAnimator.swift; path = CiaoTransitions/Animator/BasicScaleAnimator.swift; sourceTree = "<group>"; };
+		852F97E0688593A931E16BAD94DA7C55 /* ValueStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueStepper.swift; path = Pod/Classes/ValueStepper.swift; sourceTree = "<group>"; };
+		88A8D7DC950A5BD536F73949C70C4C1B /* Pods-DinDin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DinDin.modulemap"; sourceTree = "<group>"; };
+		8CC055A5B5B45ED2D40B9D8D380777B8 /* CiaoTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CiaoTransitions-prefix.pch"; sourceTree = "<group>"; };
+		91337A2B102097259D5D5E972743A897 /* ValueStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValueStepper-dummy.m"; sourceTree = "<group>"; };
+		92B9BEFC31562656BAB514B4FBE14314 /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Presentr/BackgroundView.swift; sourceTree = "<group>"; };
+		9366E64975D9C9F853D83D7320D83D65 /* CiaoModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoModalPresentationController.swift; path = CiaoTransitions/ModalAppStoreTransition/CiaoModalPresentationController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B06395888FB7BF8481BE2AE4A802D77 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		9C7AB03B6A49424597DACA3EFE5CFC37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF721936D0B9261E40E75154E5524A9 /* Pods-DinDin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinDin-frameworks.sh"; sourceTree = "<group>"; };
+		9DA63B8246FE11F08F5C3DB50250E95E /* Pods-DinDin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinDin-acknowledgements.plist"; sourceTree = "<group>"; };
+		A165786656BFB798A5412C00CC817E5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71CA358A713B820B20276D78953DB01 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		A78CD1FECFF3EDF7AF7BF97167B192C7 /* PresentAppStoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentAppStoreAnimator.swift; path = CiaoTransitions/ModalAppStoreTransition/PresentAppStoreAnimator.swift; sourceTree = "<group>"; };
+		A83021CDA68319231549C9AAF2E65A19 /* Pods-DinDin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DinDin-dummy.m"; sourceTree = "<group>"; };
+		A831D8BCBA2D641974BB9D8CC87D4F8A /* Presentr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentr.modulemap; sourceTree = "<group>"; };
+		A9655C9422CBC8376092F5387F73F05D /* UIImageView+Copy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Copy.swift"; path = "CiaoTransitions/Extensions/UIImageView+Copy.swift"; sourceTree = "<group>"; };
+		B98BFEF61B12D855031A4AE64A1BD8C5 /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = CiaoTransitions/Globals.swift; sourceTree = "<group>"; };
+		C12AFDAB232618CD75AEE2C29CF48810 /* Presentr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-umbrella.h"; sourceTree = "<group>"; };
+		C3C42703F0F9107538748330DE248337 /* ModalSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalSize.swift; path = Presentr/ModalSize.swift; sourceTree = "<group>"; };
+		C7B723D9623311BC636F8B7654F4EC24 /* ValueStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValueStepper-umbrella.h"; sourceTree = "<group>"; };
+		C9E739F9E850880F678229583B1F7372 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		CA7B9C993AD2F1C2DBADC8BCD74CC383 /* PresentAppStoreTransitionDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentAppStoreTransitionDriver.swift; path = CiaoTransitions/ModalAppStoreTransition/PresentAppStoreTransitionDriver.swift; sourceTree = "<group>"; };
+		CE973E18793484E34E7F73FD7831DD96 /* CiaoTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CiaoTransitions-dummy.m"; sourceTree = "<group>"; };
+		D0488B0200E7949AC31E70CBCF800AF2 /* Pods-DinDin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinDin.release.xcconfig"; sourceTree = "<group>"; };
+		D0F15186B15311A3E81F4B80B4AB0644 /* Pods_DinDin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DinDin.framework; path = "Pods-DinDin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15BA1625FBA6D338E7D55281C86A8BE /* PresentrShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrShadow.swift; path = Presentr/PresentrShadow.swift; sourceTree = "<group>"; };
+		D40E7A21088718BE71D3E1E8A6118181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E917B1E0B1FE826A631B81CB924187 /* Pods-DinDin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinDin-resources.sh"; sourceTree = "<group>"; };
+		D770358A19CB793E53F44EA0ED5607CF /* Presentr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-prefix.pch"; sourceTree = "<group>"; };
+		D7CB4B0D60D1C0A432A7F7E0C1D44D39 /* CiaoTransitions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CiaoTransitions-umbrella.h"; sourceTree = "<group>"; };
+		DBB84DB83643C02DEC174F10B2822DB4 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		E0C3150BFDB2D34FB378DEBB24A46C39 /* UIView+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Tools.swift"; path = "CiaoTransitions/Extensions/UIView+Tools.swift"; sourceTree = "<group>"; };
+		E725035A7D23DECEA1C6B94C137EB7F0 /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverHorizontalAnimation.swift; path = Presentr/CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		E858BB3CA5BD61D64CFA3F07EFB7DDA6 /* BasicLateralAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicLateralAnimator.swift; path = CiaoTransitions/Animator/BasicLateralAnimator.swift; sourceTree = "<group>"; };
+		E9DB13BBDF985A2032CCE6B7858BD689 /* KeyboardTranslation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTranslation.swift; path = Presentr/KeyboardTranslation.swift; sourceTree = "<group>"; };
+		EB52D8842277F3546E3F46364E6481A3 /* TransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Presentr/TransitionType.swift; sourceTree = "<group>"; };
+		EC926033F4BDF6AA515D039D174D69ED /* CiaoTransitionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiaoTransitionStyle.swift; path = CiaoTransitions/CiaoTransitionStyle.swift; sourceTree = "<group>"; };
+		EF378D89414381F1EFB75E478E2496F4 /* AlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AlertViewController.xib; path = Presentr/AlertViewController.xib; sourceTree = "<group>"; };
+		EF45A46FF30C7F17C69C8565C86BCB90 /* PresentrAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrAnimation.swift; path = Presentr/PresentrAnimation.swift; sourceTree = "<group>"; };
+		F2D15CCAD4B3A5EED35CA7725263419E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Montserrat-Regular.ttf"; path = "Presentr/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FF6777B28C2C57AE69D85AD9547D80C3 /* BasicVerticalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicVerticalAnimator.swift; path = CiaoTransitions/Animator/BasicVerticalAnimator.swift; sourceTree = "<group>"; };
+		FF7476E3D5DEF9B11BE0D3E0748B1C48 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipHorizontalAnimation.swift; path = Presentr/FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DD8BF0C95DDA080566D2B2E6550552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F258C6F09ED2E22140F67B6BE927F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F73340B2C09886B9CEEB7B307E2975E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F4F1931559AEAE1864FF63B438899A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1E3B5CC9145E591EF2C9FCDED774E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254C2E79ED77D91ED93E4EAB0FA02932 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88AF2FBE8670D8C9E995C5F8E6A7F0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F56BA2B5ACFE41C28AC3B0950A5E52 /* Foundation.framework in Frameworks */,
+				14C8D97192E00F12E1316016F7FE5E7C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45257127261A9B433F6F5222E96BEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238377FF2F748878FBFD62C9FD0BC2B0 /* Foundation.framework in Frameworks */,
+				DD90D6F6A36B9C3C7631E3F06DEB0126 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D0399FE2BD72551EC5A12AC2B0E558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E7168933113A8B0D24F27B45A43B195 /* CiaoTransitions.framework */,
+				6E7B1640A53C1E6BA381F7AD6EBF9732 /* FSPagerView.framework */,
+				D0F15186B15311A3E81F4B80B4AB0644 /* Pods_DinDin.framework */,
+				4A2BB1993BDE59B5D62825A3B71C701D /* Presentr.framework */,
+				2DF666061592DF75378046F466960C4D /* ValueStepper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55ACBAEDBDED5D172BF0DA8BB27AEE00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F95F2D0422FB8E865F4C227543E97E4 /* CiaoTransitions */,
+				6B908EB4B54152A7633591839ED0BFA5 /* FSPagerView */,
+				FEAE384484A39D8FDBA47159609A2029 /* Presentr */,
+				70D292412030D632567E1F08F0FE860F /* ValueStepper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		573A6FD030E8A3F559C86DD367339C5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40E7A21088718BE71D3E1E8A6118181 /* Info.plist */,
+				2897E1253DC21B1837FCE77876BA8D2A /* ValueStepper.modulemap */,
+				45EC502F37B2F20A6475A4C5C104743D /* ValueStepper.xcconfig */,
+				91337A2B102097259D5D5E972743A897 /* ValueStepper-dummy.m */,
+				4E9F5BBF378C93F1448794014EE2BA97 /* ValueStepper-prefix.pch */,
+				C7B723D9623311BC636F8B7654F4EC24 /* ValueStepper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ValueStepper";
+			sourceTree = "<group>";
+		};
+		67AC29859DE23F12F13A84415448FE00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B06395888FB7BF8481BE2AE4A802D77 /* FSPagerView.modulemap */,
+				4CF18144530003558F59FE8162868EE7 /* FSPagerView.xcconfig */,
+				44DBA73C43B54CBAD7F4955C814DB6A6 /* FSPagerView-dummy.m */,
+				55B7A812E03E62EB63BCCB68FDE4CAF0 /* FSPagerView-prefix.pch */,
+				7E815C4C812AC532E7038B7C9644F574 /* FSPagerView-umbrella.h */,
+				A165786656BFB798A5412C00CC817E5C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSPagerView";
+			sourceTree = "<group>";
+		};
+		6B908EB4B54152A7633591839ED0BFA5 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				A71CA358A713B820B20276D78953DB01 /* FSPageControl.swift */,
+				3BB4A6BE329430D7CEB02F7606DB739C /* FSPagerCollectionView.swift */,
+				2302DF424B9F2C7317199245CD8A0EC7 /* FSPagerView.swift */,
+				4846B46D3D2B7CF241E1845CE16F8A88 /* FSPagerViewCell.swift */,
+				2DE9DF39CA560627564870A28E267AD6 /* FSPagerViewLayoutAttributes.swift */,
+				C9E739F9E850880F678229583B1F7372 /* FSPagerViewObjcCompat.h */,
+				53983B705D69F9F3B1706C079F462DED /* FSPagerViewObjcCompat.m */,
+				038422307A9B877F2556311D5905924B /* FSPageViewLayout.swift */,
+				DBB84DB83643C02DEC174F10B2822DB4 /* FSPageViewTransformer.swift */,
+				67AC29859DE23F12F13A84415448FE00 /* Support Files */,
+			);
+			name = FSPagerView;
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		70D292412030D632567E1F08F0FE860F /* ValueStepper */ = {
+			isa = PBXGroup;
+			children = (
+				852F97E0688593A931E16BAD94DA7C55 /* ValueStepper.swift */,
+				573A6FD030E8A3F559C86DD367339C5B /* Support Files */,
+			);
+			name = ValueStepper;
+			path = ValueStepper;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				55ACBAEDBDED5D172BF0DA8BB27AEE00 /* Pods */,
+				05D0399FE2BD72551EC5A12AC2B0E558 /* Products */,
+				B06E492942E8D72F59FB00305B4C8D7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F95F2D0422FB8E865F4C227543E97E4 /* CiaoTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				1D519F02AC6B2B76AD7B11DC0ADF0BD3 /* Animator.swift */,
+				262DE03252DFE2B912CDCFD4C1A47587 /* BasicAnimator.swift */,
+				7B2665BC59C44C2F0CE6231DF69A88E6 /* BasicInteractor.swift */,
+				E858BB3CA5BD61D64CFA3F07EFB7DDA6 /* BasicLateralAnimator.swift */,
+				845580D0A5FFC120D4968D5AFF196A31 /* BasicScaleAnimator.swift */,
+				FF6777B28C2C57AE69D85AD9547D80C3 /* BasicVerticalAnimator.swift */,
+				2613BB9C91685133157CEF48E5F45352 /* CiaoAppStoreConfigurator.swift */,
+				5E8121D5A2BFA586C87BBFA2A36AFC3D /* CiaoCardCollectionViewCell.swift */,
+				5A4861502204E1CE4CB1F09976A1DB77 /* CiaoConfigurator.swift */,
+				9366E64975D9C9F853D83D7320D83D65 /* CiaoModalPresentationController.swift */,
+				07E62EE35A2FF7DAF9E0A6672F116BFE /* CiaoScaleConfigurator.swift */,
+				66141A849860B7D7A200F47D2FEFD281 /* CiaoTransition.swift */,
+				EC926033F4BDF6AA515D039D174D69ED /* CiaoTransitionStyle.swift */,
+				4410AF3647051E1F03A7CE602772DA53 /* DismissAppStoreAnimator.swift */,
+				B98BFEF61B12D855031A4AE64A1BD8C5 /* Globals.swift */,
+				3A4289BF1747F14180E624BA03D2D4F3 /* Interactor.swift */,
+				A78CD1FECFF3EDF7AF7BF97167B192C7 /* PresentAppStoreAnimator.swift */,
+				CA7B9C993AD2F1C2DBADC8BCD74CC383 /* PresentAppStoreTransitionDriver.swift */,
+				53A749025E648F199FDCD477DAC13044 /* SpecialInteractor.swift */,
+				A9655C9422CBC8376092F5387F73F05D /* UIImageView+Copy.swift */,
+				E0C3150BFDB2D34FB378DEBB24A46C39 /* UIView+Tools.swift */,
+				DDFB65EB4EB82D54D0E2642A1A6F1196 /* Support Files */,
+			);
+			name = CiaoTransitions;
+			path = CiaoTransitions;
+			sourceTree = "<group>";
+		};
+		B06E492942E8D72F59FB00305B4C8D7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA5E6FC1DADF136DD86C2CF18A4713D /* Pods-DinDin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBA5E6FC1DADF136DD86C2CF18A4713D /* Pods-DinDin */ = {
+			isa = PBXGroup;
+			children = (
+				3B388E434403BBED25366D720520FCBD /* Info.plist */,
+				88A8D7DC950A5BD536F73949C70C4C1B /* Pods-DinDin.modulemap */,
+				49276A2759B4616800F0B71854F80878 /* Pods-DinDin-acknowledgements.markdown */,
+				9DA63B8246FE11F08F5C3DB50250E95E /* Pods-DinDin-acknowledgements.plist */,
+				A83021CDA68319231549C9AAF2E65A19 /* Pods-DinDin-dummy.m */,
+				9CF721936D0B9261E40E75154E5524A9 /* Pods-DinDin-frameworks.sh */,
+				D5E917B1E0B1FE826A631B81CB924187 /* Pods-DinDin-resources.sh */,
+				74F6B2D4FCD84B03D003AF7D00172C34 /* Pods-DinDin-umbrella.h */,
+				0C0CD498401AAAD959D73F3D8A5A97AD /* Pods-DinDin.debug.xcconfig */,
+				D0488B0200E7949AC31E70CBCF800AF2 /* Pods-DinDin.release.xcconfig */,
+			);
+			name = "Pods-DinDin";
+			path = "Target Support Files/Pods-DinDin";
+			sourceTree = "<group>";
+		};
+		C758F49C21E95A6E3A4E90596257EAAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C7AB03B6A49424597DACA3EFE5CFC37 /* Info.plist */,
+				A831D8BCBA2D641974BB9D8CC87D4F8A /* Presentr.modulemap */,
+				4CADC5A747858508F94F84E5A64AF2FD /* Presentr.xcconfig */,
+				0A70EC54095FE1641221B705C2E83746 /* Presentr-dummy.m */,
+				D770358A19CB793E53F44EA0ED5607CF /* Presentr-prefix.pch */,
+				C12AFDAB232618CD75AEE2C29CF48810 /* Presentr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Presentr";
+			sourceTree = "<group>";
+		};
+		CB722EB5BBA63B5DC6008FA80153DDC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF378D89414381F1EFB75E478E2496F4 /* AlertViewController.xib */,
+				F2D15CCAD4B3A5EED35CA7725263419E /* Montserrat-Regular.ttf */,
+				02FD0BD3F5EA623AAF6377F09101027A /* SourceSansPro-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DDFB65EB4EB82D54D0E2642A1A6F1196 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EBCF7B210A120EC1CBF06807234D404 /* CiaoTransitions.modulemap */,
+				7136DA05AB94FB1D9C3AA139051D43AA /* CiaoTransitions.xcconfig */,
+				CE973E18793484E34E7F73FD7831DD96 /* CiaoTransitions-dummy.m */,
+				8CC055A5B5B45ED2D40B9D8D380777B8 /* CiaoTransitions-prefix.pch */,
+				D7CB4B0D60D1C0A432A7F7E0C1D44D39 /* CiaoTransitions-umbrella.h */,
+				79C1C544ABD320DA27D8281C14E6311B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CiaoTransitions";
+			sourceTree = "<group>";
+		};
+		FEAE384484A39D8FDBA47159609A2029 /* Presentr */ = {
+			isa = PBXGroup;
+			children = (
+				2D9CC911D46AB40A8E1CDEFFD0D5A7CE /* AlertViewController.swift */,
+				92B9BEFC31562656BAB514B4FBE14314 /* BackgroundView.swift */,
+				2A6C8344B38117B571A8E2FA8D1FB86D /* CoverFromCornerAnimation.swift */,
+				E725035A7D23DECEA1C6B94C137EB7F0 /* CoverHorizontalAnimation.swift */,
+				06FEA6C3B9EFA59CAAA0F528D55EC042 /* CoverVerticalAnimation.swift */,
+				358FA4E37D7DCCAB8AD2AC4A954E3316 /* CoverVerticalFromTopAnimation.swift */,
+				31CBDCC7A94F7558C99988A55814BE74 /* CrossDissolveAnimation.swift */,
+				FF7476E3D5DEF9B11BE0D3E0748B1C48 /* FlipHorizontalAnimation.swift */,
+				E9DB13BBDF985A2032CCE6B7858BD689 /* KeyboardTranslation.swift */,
+				5C880958847CA1FBEDF3D109F8F85971 /* ModalCenterPosition.swift */,
+				C3C42703F0F9107538748330DE248337 /* ModalSize.swift */,
+				2C26F9BD1BAEE121FAB36F1A307553B5 /* PresentationType.swift */,
+				6E56346AE9E403A46438E499B577CB54 /* Presentr.swift */,
+				45595078C6DF4D2058E506CF33EDE039 /* Presentr+Equatable.swift */,
+				EF45A46FF30C7F17C69C8565C86BCB90 /* PresentrAnimation.swift */,
+				358209AF53CDFAE281297138B40B567A /* PresentrController.swift */,
+				D15BA1625FBA6D338E7D55281C86A8BE /* PresentrShadow.swift */,
+				EB52D8842277F3546E3F46364E6481A3 /* TransitionType.swift */,
+				CB722EB5BBA63B5DC6008FA80153DDC3 /* Resources */,
+				C758F49C21E95A6E3A4E90596257EAAF /* Support Files */,
+			);
+			name = Presentr;
+			path = Presentr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		254CC2A5DFE813BCAA748A091520D7B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BD8A31C09895DCBB5576E5BC516C3A /* Presentr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FDE1BB7BD76AEE86712EB65DF69473 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F9FE1EF82D7008BA1442DC1EBF76EC /* CiaoTransitions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B72A50A087CF88EFF2E47953E2D790D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF2767B57F12669D1B5010D441984F7 /* ValueStepper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8395320B668BD66F9E352E89DAC28C28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BA06109C96FD6816A29982057F9236 /* Pods-DinDin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B28FF639BFE46DE3B0D731F6DBF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D693F1B8E81B6997A68E123FB95ADA /* FSPagerView-umbrella.h in Headers */,
+				E6DAB6123768270DD250C88CCEAE2859 /* FSPagerViewObjcCompat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A0C74E4A9521420C609B3853291D065 /* FSPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2983EEF7F0F76203AE3A618DC3999424 /* Build configuration list for PBXNativeTarget "FSPagerView" */;
+			buildPhases = (
+				D6E4B28FF639BFE46DE3B0D731F6DBF4 /* Headers */,
+				16F1EB9C0E809F7381E59408A801A8E6 /* Sources */,
+				C45257127261A9B433F6F5222E96BEF9 /* Frameworks */,
+				BC6980E8652C4205296AD5ADA0A60BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSPagerView;
+			productName = FSPagerView;
+			productReference = 6E7B1640A53C1E6BA381F7AD6EBF9732 /* FSPagerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DB8D894D84D67CF1F772092067BDC24 /* ValueStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2963B1B5DA5DA453A49DFB241C0CC4EA /* Build configuration list for PBXNativeTarget "ValueStepper" */;
+			buildPhases = (
+				5B72A50A087CF88EFF2E47953E2D790D /* Headers */,
+				E18E4265BC9F270283FA732C271661EF /* Sources */,
+				7E1E3B5CC9145E591EF2C9FCDED774E7 /* Frameworks */,
+				DC7B8C2DAFB2B3804FE876685105AD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValueStepper;
+			productName = ValueStepper;
+			productReference = 2DF666061592DF75378046F466960C4D /* ValueStepper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88CA7D1D39158C80050F54AB6ACA418A /* Pods-DinDin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B641AEDEB288C85B57055B3F214D79DC /* Build configuration list for PBXNativeTarget "Pods-DinDin" */;
+			buildPhases = (
+				8395320B668BD66F9E352E89DAC28C28 /* Headers */,
+				15289789A2F841F6373CBA683E327679 /* Sources */,
+				15DD8BF0C95DDA080566D2B2E6550552 /* Frameworks */,
+				E05AC11BF8C6FD1DC835E1F6A58C61AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6C012E66A232957F6D3A008E7053719 /* PBXTargetDependency */,
+				44E3FA2AD86703768CBFC9C099DAD03A /* PBXTargetDependency */,
+				2563E5A48B4CF60D0D9918E99B23FEF4 /* PBXTargetDependency */,
+				4FEBF953BFED41C95D6B13243A97708C /* PBXTargetDependency */,
+			);
+			name = "Pods-DinDin";
+			productName = "Pods-DinDin";
+			productReference = D0F15186B15311A3E81F4B80B4AB0644 /* Pods_DinDin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95E5D4E358FBB746335FAFE131FA397F /* Presentr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9978A4DF6AE765F638FD42B4E9532C3A /* Build configuration list for PBXNativeTarget "Presentr" */;
+			buildPhases = (
+				254CC2A5DFE813BCAA748A091520D7B1 /* Headers */,
+				1B6F126C0BBB52F5A1C49BD1862E376A /* Sources */,
+				4F73340B2C09886B9CEEB7B307E2975E /* Frameworks */,
+				A67629A5122A2CED265E6C857C50995C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presentr;
+			productName = Presentr;
+			productReference = 4A2BB1993BDE59B5D62825A3B71C701D /* Presentr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6C207C16F7701A99D43D7C5D30888D3 /* CiaoTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FDE9F6033474AD4CC392256FF44845 /* Build configuration list for PBXNativeTarget "CiaoTransitions" */;
+			buildPhases = (
+				29FDE1BB7BD76AEE86712EB65DF69473 /* Headers */,
+				C0C6B3E13374061B47FD7C4F227A5863 /* Sources */,
+				88AF2FBE8670D8C9E995C5F8E6A7F0A3 /* Frameworks */,
+				0A3D5F9E7B7021D1EA5030EA084B15FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiaoTransitions;
+			productName = CiaoTransitions;
+			productReference = 2E7168933113A8B0D24F27B45A43B195 /* CiaoTransitions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 05D0399FE2BD72551EC5A12AC2B0E558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C207C16F7701A99D43D7C5D30888D3 /* CiaoTransitions */,
+				1A0C74E4A9521420C609B3853291D065 /* FSPagerView */,
+				88CA7D1D39158C80050F54AB6ACA418A /* Pods-DinDin */,
+				95E5D4E358FBB746335FAFE131FA397F /* Presentr */,
+				2DB8D894D84D67CF1F772092067BDC24 /* ValueStepper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3D5F9E7B7021D1EA5030EA084B15FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67629A5122A2CED265E6C857C50995C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC4F068462E8024BA995F1B0438B9DE /* AlertViewController.xib in Resources */,
+				28E811A6772DBECC6F22B65FFFD3303F /* Montserrat-Regular.ttf in Resources */,
+				19A412CEED0D25A0B49CF59BBE019D48 /* SourceSansPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6980E8652C4205296AD5ADA0A60BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7B8C2DAFB2B3804FE876685105AD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05AC11BF8C6FD1DC835E1F6A58C61AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15289789A2F841F6373CBA683E327679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B479F9E916B5C1ACDFC92A2DCAF46681 /* Pods-DinDin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F1EB9C0E809F7381E59408A801A8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF83D8DF91CD8CB95B57AB8398756754 /* FSPageControl.swift in Sources */,
+				AFFA5C989B359FC002096F82029A6E6F /* FSPagerCollectionView.swift in Sources */,
+				297C498DEAB077F6062A61CD8D0376F1 /* FSPagerView-dummy.m in Sources */,
+				2244AA503827CE409707C10F8864A638 /* FSPagerView.swift in Sources */,
+				7A4BEBC355A17EC439BDDAF928758AD5 /* FSPagerViewCell.swift in Sources */,
+				6AAD15414470C7F94F3F527FFF15C8B7 /* FSPagerViewLayoutAttributes.swift in Sources */,
+				49D1D099CD52D4F6987594FF31319C66 /* FSPagerViewObjcCompat.m in Sources */,
+				FA1C9FA0F94A81A71EEC5DF946CD0921 /* FSPageViewLayout.swift in Sources */,
+				0BF9B0E466ABEDB20594549875AF2B5C /* FSPageViewTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6F126C0BBB52F5A1C49BD1862E376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF44F2C302329D3751AFC0B5A86669 /* AlertViewController.swift in Sources */,
+				0CFF50248C2FB3F97326632A5C6E3B44 /* BackgroundView.swift in Sources */,
+				AD251455DD9E00932139F7D10E2EA0CB /* CoverFromCornerAnimation.swift in Sources */,
+				9C3738C7F369144CE0B6FAB3AF0D71A6 /* CoverHorizontalAnimation.swift in Sources */,
+				51D22CD5E4546EEC6612C36C85355B01 /* CoverVerticalAnimation.swift in Sources */,
+				541967BDBC0871A932827A647970F8E9 /* CoverVerticalFromTopAnimation.swift in Sources */,
+				58F1D378DD5351A27536CA8AE0E9ED06 /* CrossDissolveAnimation.swift in Sources */,
+				846064788FC91453B11E4614C6444FD9 /* FlipHorizontalAnimation.swift in Sources */,
+				19147B918470365D35611537E8594484 /* KeyboardTranslation.swift in Sources */,
+				E706A02767934D3E6B021FC31A3E905D /* ModalCenterPosition.swift in Sources */,
+				DCFD10069D77CE7D6B4A23779CD35274 /* ModalSize.swift in Sources */,
+				B4C92C0496A396AAB3DC2F09184AEFA7 /* PresentationType.swift in Sources */,
+				C877C19AA23E36E8B2FA52FF044496AE /* Presentr+Equatable.swift in Sources */,
+				C69E45E7A6A8B6A91F5F9E1706D92852 /* Presentr-dummy.m in Sources */,
+				04212E32BA217BD67456F96B060B5117 /* Presentr.swift in Sources */,
+				7063015D37547F9DC9E254AFFE944CE7 /* PresentrAnimation.swift in Sources */,
+				6141812110B6CB692FF4A527AD81BFFA /* PresentrController.swift in Sources */,
+				2AD145F58B5A0E7A5F0ABC390C0EAF3D /* PresentrShadow.swift in Sources */,
+				6EEFD282B439C6F05B6CB7CABAA36712 /* TransitionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C6B3E13374061B47FD7C4F227A5863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0774909AF5E3A2C81460D59F0F8B4889 /* Animator.swift in Sources */,
+				69230C9C065D4902212444F122CAA60A /* BasicAnimator.swift in Sources */,
+				7A9473445EB343C3B3615B561FA6A00F /* BasicInteractor.swift in Sources */,
+				CB13EFF9285E524723BDD60E68EF2EB0 /* BasicLateralAnimator.swift in Sources */,
+				1420EC4D834D5E36056657D97D840408 /* BasicScaleAnimator.swift in Sources */,
+				9A56192DD94939ABD126ED4264E45783 /* BasicVerticalAnimator.swift in Sources */,
+				BD0D2709EA8E1D066BF8A0587608BBFF /* CiaoAppStoreConfigurator.swift in Sources */,
+				1A3F39B0E15E8F4F2957127051F55070 /* CiaoCardCollectionViewCell.swift in Sources */,
+				B6033C985DE588586FFE7118DDC25804 /* CiaoConfigurator.swift in Sources */,
+				F589AC4744F18518854B674E1AFFA09E /* CiaoModalPresentationController.swift in Sources */,
+				8727216821139F789C6FA84B2F940318 /* CiaoScaleConfigurator.swift in Sources */,
+				4DDF518335ADEEEEFFEF498A4DC70AD5 /* CiaoTransition.swift in Sources */,
+				4D870AEA231CAA542A4F2E40C109AA79 /* CiaoTransitions-dummy.m in Sources */,
+				EB473DB04413BFD079DD53A24A1D17EB /* CiaoTransitionStyle.swift in Sources */,
+				A2B4E6B998289CA177BF63E2100DD4A8 /* DismissAppStoreAnimator.swift in Sources */,
+				A00D8CAB56A72ABCC50C01512918C2FB /* Globals.swift in Sources */,
+				9B298D8718511800FDD9F29BEE2E023D /* Interactor.swift in Sources */,
+				E62C0CC03A89C1AD8849581C8AB383E3 /* PresentAppStoreAnimator.swift in Sources */,
+				028D9EA50E403646F5480340C31A3427 /* PresentAppStoreTransitionDriver.swift in Sources */,
+				50E025F3B875B176606EF76325FAF147 /* SpecialInteractor.swift in Sources */,
+				D8449B4846E9603C1DA3B4C3B85684E6 /* UIImageView+Copy.swift in Sources */,
+				A6A032427391449B4DCA81F99A660542 /* UIView+Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E4265BC9F270283FA732C271661EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CFECA515F950852E27ED44FFB339B0 /* ValueStepper-dummy.m in Sources */,
+				D18BCE5DFDE3F186F28AC3F1564BA49A /* ValueStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2563E5A48B4CF60D0D9918E99B23FEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentr;
+			target = 95E5D4E358FBB746335FAFE131FA397F /* Presentr */;
+			targetProxy = 9134AD0B9D8194ECE6C2989CCB52FC11 /* PBXContainerItemProxy */;
+		};
+		44E3FA2AD86703768CBFC9C099DAD03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = 1A0C74E4A9521420C609B3853291D065 /* FSPagerView */;
+			targetProxy = 00E3EC3CF3CFE99FF7A8A84195AA04A3 /* PBXContainerItemProxy */;
+		};
+		4FEBF953BFED41C95D6B13243A97708C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValueStepper;
+			target = 2DB8D894D84D67CF1F772092067BDC24 /* ValueStepper */;
+			targetProxy = 313051839A9F0F71D39D839BB248AFF7 /* PBXContainerItemProxy */;
+		};
+		E6C012E66A232957F6D3A008E7053719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CiaoTransitions;
+			target = F6C207C16F7701A99D43D7C5D30888D3 /* CiaoTransitions */;
+			targetProxy = 960A13F04B865D2CD9B340EA06F909DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097925C9397DC04C6431142272FC1B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		319D51B47E1BBD654E5E4B324EE8A7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0CD498401AAAD959D73F3D8A5A97AD /* Pods-DinDin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinDin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinDin/Pods-DinDin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D58B90164F6A3F8A9E1B3234C681D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7136DA05AB94FB1D9C3AA139051D43AA /* CiaoTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CiaoTransitions/CiaoTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CiaoTransitions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CiaoTransitions/CiaoTransitions.modulemap";
+				PRODUCT_MODULE_NAME = CiaoTransitions;
+				PRODUCT_NAME = CiaoTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A63700F12CE09680AAC5AAEBFEBF126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EC502F37B2F20A6475A4C5C104743D /* ValueStepper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValueStepper/ValueStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValueStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValueStepper/ValueStepper.modulemap";
+				PRODUCT_MODULE_NAME = ValueStepper;
+				PRODUCT_NAME = ValueStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65A5228FD66D1F084B97A695E77BDCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF18144530003558F59FE8162868EE7 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		719D321E9934353F8105A129B6389749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0488B0200E7949AC31E70CBCF800AF2 /* Pods-DinDin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DinDin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinDin/Pods-DinDin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76BEBCB1D358C6619438BF75797B2AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF18144530003558F59FE8162868EE7 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D279A1BC1A699808A4158D20301FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		865A2E1B1656E8E82B2FF466149922BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7136DA05AB94FB1D9C3AA139051D43AA /* CiaoTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CiaoTransitions/CiaoTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CiaoTransitions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CiaoTransitions/CiaoTransitions.modulemap";
+				PRODUCT_MODULE_NAME = CiaoTransitions;
+				PRODUCT_NAME = CiaoTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E822E1945DE1C80347FC3E2ED122BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CADC5A747858508F94F84E5A64AF2FD /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF551E53D9DEF671BBB86A09409366BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CADC5A747858508F94F84E5A64AF2FD /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFBEE815304D5E94563152164713E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EC502F37B2F20A6475A4C5C104743D /* ValueStepper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValueStepper/ValueStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValueStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValueStepper/ValueStepper.modulemap";
+				PRODUCT_MODULE_NAME = ValueStepper;
+				PRODUCT_NAME = ValueStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2963B1B5DA5DA453A49DFB241C0CC4EA /* Build configuration list for PBXNativeTarget "ValueStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBEE815304D5E94563152164713E6A9 /* Debug */,
+				5A63700F12CE09680AAC5AAEBFEBF126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2983EEF7F0F76203AE3A618DC3999424 /* Build configuration list for PBXNativeTarget "FSPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BEBCB1D358C6619438BF75797B2AB3 /* Debug */,
+				65A5228FD66D1F084B97A695E77BDCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D279A1BC1A699808A4158D20301FFD7 /* Debug */,
+				097925C9397DC04C6431142272FC1B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FDE9F6033474AD4CC392256FF44845 /* Build configuration list for PBXNativeTarget "CiaoTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865A2E1B1656E8E82B2FF466149922BA /* Debug */,
+				4D58B90164F6A3F8A9E1B3234C681D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9978A4DF6AE765F638FD42B4E9532C3A /* Build configuration list for PBXNativeTarget "Presentr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF551E53D9DEF671BBB86A09409366BA /* Debug */,
+				8E822E1945DE1C80347FC3E2ED122BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B641AEDEB288C85B57055B3F214D79DC /* Build configuration list for PBXNativeTarget "Pods-DinDin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319D51B47E1BBD654E5E4B324EE8A7FE /* Debug */,
+				719D321E9934353F8105A129B6389749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,28 @@
+PODS:
+  - CiaoTransitions (0.2.2)
+  - FSPagerView (0.8.2)
+  - Presentr (1.9)
+  - ValueStepper (1.5)
+
+DEPENDENCIES:
+  - CiaoTransitions
+  - FSPagerView
+  - Presentr
+  - ValueStepper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CiaoTransitions
+    - FSPagerView
+    - Presentr
+    - ValueStepper
+
+SPEC CHECKSUMS:
+  CiaoTransitions: 22375bf4ddd12583457c215a03e86b6e80e08ee5
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  ValueStepper: e84d21a2ce62a7975df8b222c7273d6810f7e78c
+
+PODFILE CHECKSUM: 82240deb3df77c871b289747655d3eef662f7d46
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,226 @@
+{
+    "burgers": [
+      {
+        "price": 6.50,
+        "name": "Beef Burger",
+        "burgerClassification": 1,
+        "imageName":"1.jpg",
+        "weightInGrams": "425g",
+        "description": "This is made with chesse",
+        "ingredients": [
+            {
+                "name":"Cheese",
+                "imageName":"a.jpg",
+                "condiments": [
+                    {
+                        "name": "Guada",
+                        "price": 0.5
+                    },
+                    {
+                        "name": "Illertaler",
+                        "price": 0.45
+                    },
+                    {
+                        "name": "Cornte",
+                        "price": 0.25
+                    }
+                ]
+            },
+            {
+                "name":"Bun",
+                "imageName":"b.jpg",
+                "condiments": [
+                    {
+                        "name": "Rice",
+                        "price": 0.5
+                    },
+                    {
+                        "name": "Flour",
+                        "price": 0.15
+                    }
+                ]
+            },
+            {
+                "name":"Vegetables",
+                "imageName":"c.jpg",
+                "condiments": [
+                    {
+                        "name": "tomato",
+                        "price": 0.5
+                    },
+                    {
+                        "name": "salad",
+                        "price": 0.15
+                    },
+                    {
+                        "name": "corn",
+                        "price": 0.45
+                    }
+                ]
+            }
+        ]
+     },
+     {
+         "price": 3.65,
+         "name": "DoubleSize Burger",
+         "burgerClassification": 1,
+         "imageName":"4.jpg",
+         "weightInGrams": "225g",
+         "description": "This is made with chesse",
+         "ingredients": [
+             {
+                 "name":"Sauce",
+                 "imageName":"d.jpg",
+                 "condiments": [
+                     {
+                         "name": "Tomato",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Chili",
+                         "price": 0.15
+                     },
+                     {
+                         "name": "Ketup",
+                         "price": 0.45
+                     }
+                 ]
+             },
+             {
+                 "name":"Bacon",
+                 "imageName":"e.jpg",
+                 "condiments": [
+                     {
+                         "name": "Pork",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Chicken",
+                         "price": 0.25
+                     }
+                 ]
+             }
+         ]
+     },
+     {
+         "price": 4.65,
+         "name": "Cheese Burger",
+         "burgerClassification": 1,
+         "imageName":"3.jpg",
+         "weightInGrams": "325g",
+         "description": "This is made with chesse",
+         "ingredients": [
+             {
+                 "name":"Mushroom",
+                 "imageName":"f.jpg",
+                 "condiments": [
+                     {
+                         "name": "Morel",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Shiitake",
+                         "price": 0.15
+                     },
+                     {
+                         "name": "Oyster",
+                         "price": 0.45
+                     },
+                     {
+                         "name": "Enoki",
+                         "price": 0.25
+                     }
+                 ]
+             },
+             {
+                 "name":"Chili",
+                 "imageName":"g.jpg",
+                 "condiments": [
+                     {
+                         "name": "Spicy",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Less Spicy",
+                         "price": 0.15
+                     }
+                 ]
+             },
+             {
+                 "name":"Vegetables",
+                 "imageName":"c.jpg",
+                 "condiments": [
+                     {
+                         "name": "Cabbage",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Califlower",
+                         "price": 0.15
+                     },
+                     {
+                         "name": "Potatos",
+                         "price": 0.45
+                     }
+                 ]
+             }
+         ]
+     },
+     {
+         "price": 4.15,
+         "name": "King Size Burger",
+         "burgerClassification": 0,
+         "imageName":"5.jpg",
+         "weightInGrams": "525g",
+         "description": "Egg, Mustard, Vegetable, Source, Onion Garlic, Medium Gound Beef.",
+         "ingredients": [
+             {
+                 "name":"Bacon",
+                 "imageName":"e.jpg",
+                 "condiments": [
+                     {
+                         "name": "Tukey",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Pork",
+                         "price": 0.15
+                     },
+                     {
+                         "name": "Chicken",
+                         "price": 0.45
+                     }
+                 ]
+             },
+             {
+                 "name":"Bun",
+                 "imageName":"b.jpg",
+                 "condiments": [
+                     {
+                         "name": "Flour",
+                         "price": 0.5
+                     },
+                     {
+                         "name": "Rice",
+                         "price": 0.15
+                     }
+                 ]
+             },
+             {
+                 "name":"Mushroom",
+                 "imageName":"f.jpg",
+                 "condiments": [
+                     {
+                         "name": "Shiitake",
+                         "price": 0.15
+                     },
+                     {
+                         "name": "Oyster",
+                         "price": 0.45
+                     }
+                 ]
+             }
+         ]
+     }
+  ]
+}
