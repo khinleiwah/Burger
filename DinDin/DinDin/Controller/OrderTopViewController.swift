@@ -49,8 +49,8 @@ class OrderTopViewController: UIViewController,UITableViewDelegate, UITableViewD
             
             cell.nameLabel.text = burgerInCart[indexPath.row].burger.name
             cell.priceLabel.text = burgerInCart[indexPath.row].displayAmount?.toDollar()
-            cell.quantitStepper.value = Double(burgerInCart[indexPath.row].qty!)
             cell.quantitStepper.tag = indexPath.row
+            cell.quantitStepper.value = Double(burgerInCart[indexPath.row].qty!)
           
             return cell
             
@@ -94,7 +94,7 @@ class OrderTopViewController: UIViewController,UITableViewDelegate, UITableViewD
         }
         Utility.burgerInCart.append(burger)
       
-        self.tableView.reloadRows(at: [IndexPath.init(row: stepper.tag, section: 0)], with: .fade)
+        //self.tableView.reloadRows(at: [IndexPath.init(row: stepper.tag, section: 0)], with: .fade)
         self.tableView.reloadData()
     }
     

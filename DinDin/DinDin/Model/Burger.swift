@@ -8,25 +8,6 @@
 
 import UIKit
 
-//BURGER
-//    {
-//        "amount": 10.00,
-//        "name": "ItemName",
-//        "identifier": "itemIdentifier",
-//        "burgerClassification": 0,
-//        "imageName": "anImageName",
-//        "weightInGrams": 2.00,
-//        "description": "aBurgerDescription"
-//}
-//
-//INGREDIENT
-//    {
-//        "amount": 10.00,
-//        "name": "ItemName",
-//        "identifier": "itemIdentifier",
-//        "ingredientCategory": "anIngredientCategory"
-//}
-
 enum BurgerClassification:Int {
     case featured = 0
     case special_offer = 1

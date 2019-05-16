@@ -8,10 +8,6 @@
 
 import UIKit
 
-class Extension: NSObject {
-
-}
-
 extension String {
     func description() -> String {
         return "$" + self

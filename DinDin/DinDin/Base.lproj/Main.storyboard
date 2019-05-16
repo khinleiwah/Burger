@@ -462,7 +462,7 @@
                                                     <rect key="frame" x="19" y="11" width="337" height="47.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="0.76580357990000003" blue="0.36907410870000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="GO TO HOME">
+                                                    <state key="normal" title="GO TO MENU">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
